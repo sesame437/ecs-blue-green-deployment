@@ -44,7 +44,7 @@ bin/deploy
 ```
 
 Here are the inputs required to launch CloudFormation templates:
-  * **S3 Bucket**: Enter S3 Bucket for storing your CloudFormation templates and scripts(compress scripts folder). This bucket must be in the same region where you wish to launch all the AWS resources created by this example.
+  * **S3 Bucket**: Enter S3 Bucket for storing your CloudFormation templates and scripts(yaml files of templates should be store in a templates folder, and files of templates & scripts should be compress as zip file and store in root of bucket). This bucket must be in the same region where you wish to launch all the AWS resources created by this example.
   * **CloudFormation Stack Name**: Enter CloudFormation Stack Name to create stacks
   * **GitHubUser**: Enter your GitHub Username
   * **GitHubToken**: Enter your GitHub Token for authentication ([https://github.com/settings/tokens](https://github.com/settings/tokens))
