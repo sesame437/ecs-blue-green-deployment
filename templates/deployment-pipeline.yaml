@@ -372,7 +372,7 @@ Resources:
                 ActionMode: CREATE_UPDATE
                 StackName: !Sub "${AWS::StackName}-ecs-cluster"
                 Capabilities: CAPABILITY_NAMED_IAM
-                TemplatePath: Template::templates/ecs-cluster.yaml
+                TemplatePath: Template::/ecs-cluster.yaml
                 RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                 ParameterOverrides: !Sub |
                   {
